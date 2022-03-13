@@ -9,7 +9,7 @@ type Props = {
     movieId: string;
 }
 
-function FormCard({ movieId }: Props) {
+function FormCard({ movieId } : Props) {
 
     const [movie, setMovie] = useState<Movie>();
 
@@ -49,7 +49,7 @@ function FormCard({ movieId }: Props) {
                 </Link>
             </div >
         </div >
-    )
+    );
 }
 
 export default FormCard;
